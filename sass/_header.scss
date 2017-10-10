@@ -1,0 +1,57 @@
+header.wraper {
+	background-image: url("../img/tlo.png");
+	height: 419px;
+	margin-right: auto;
+  	margin-left: auto;
+  	nav {
+		background-color: #262626;
+		height: 61px;
+		.logo {
+			float: left;
+			margin-left: 35px;
+			margin-top: 16px;
+		}
+		div {
+			ul.main-menu {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    text-align: center;
+			    li.sub-item {
+			    	display: inline-block;
+			        color: white;
+			        padding: 20px 20px;
+
+			    }
+
+			}
+		}
+	}
+}
+ul.main-menu {
+	li.sub-item {
+		a {
+			color:$color-white;
+			text-decoration: none;
+			&:hover {
+				color:$color-red;
+			}
+		}
+	}
+}
+
+div.bannerPhone{
+	display:none;
+    background-color: #313131;
+    width: 100%;
+    border: 1px solid black;
+
+
+    p{
+    	padding: 20px 10px;
+    	font-size: 14px;
+    	color: #ffffff;
+    	text-align: center;
+    }
+}
+

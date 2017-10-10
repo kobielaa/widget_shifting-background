@@ -1,0 +1,37 @@
+footer.wraper {
+	background-color: #262626;
+
+	ul.footer-menu {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    text-align: center;
+			    margin-top: 39px;
+			    li.footer-item {
+			    	display: inline-block;
+			        padding: 0px 20px;
+			        border-right: 2px solid #fff;
+			        a {
+			        	text-decoration: none;
+			        	color:white;
+			        	font-weight: bold;
+			        	font-size: 13px;
+			        	
+			        }
+			    }
+	}
+	.logo-footer {
+		float: left;
+		margin-left: 35px;
+		margin-top: 45px;
+	}
+	.text-footer{
+		color: white;
+		clear: both;
+		padding-top: 29px;
+		padding-left: 35px;
+		margin-bottom: 50px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+}

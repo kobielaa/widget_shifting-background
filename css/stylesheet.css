@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+}
+
+#one {
+  width:600px;
+  overflow: hidden;
+  z-index : 1;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#two{
+  width:0px;
+  overflow: hidden;
+  z-index : 1;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.licznik {
+  top:500px;
+  position: absolute;
+}

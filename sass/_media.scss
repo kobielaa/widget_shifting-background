@@ -1,0 +1,71 @@
+@media only screen and (max-width: 767px) {
+  div.bannerPhone{
+    display: block;
+   	}
+  header.wraper{
+  	height: 61px;
+	}
+
+  .logo {
+  	display: none;
+  	}
+  header.wraper nav div ul.main-menu li.displayNone, footer.wraper ul.footer-menu li.displayNone{
+  	display: none;
+   
+  	}
+  footer.wraper ul.footer-menu li.footer-item{
+    border:none;
+  }
+
+  .col-lg-3{
+  		display: none;
+  	}
+  button.readme{
+	 
+     width: 320px;
+  }
+  div.singlepost div.podHeaderem .sekcja .obrazek  {
+    .ikony {
+      display: none;
+    }
+    
+  }
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+.logo {
+  	display: none;
+  }
+ .col-lg-3{
+  		display: none;
+  	}
+
+  
+}
+
+@media only screen and (min-width: 980px) and (max-width:1240px) {
+  
+.logo {
+  	display: initial;
+  }
+
+  
+}
+
+@media only screen and  (min-width:1240px) {
+  
+ .col-lg-3{
+  		display: block;
+  	}
+  .logo {
+  	display: initial;
+  }
+
+  
+}
+
+
