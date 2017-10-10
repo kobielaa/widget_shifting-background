@@ -3,9 +3,19 @@ $(document).mousemove(function(event){
    var windowWidth = $(window).width();
    var kursor = event.pageX;
    var procent = (kursor/windowWidth);
-   console.log(procent);
-   if (procent>0){
-     $('#two').css("width", 600*procent);
+   var procent2 = Math.abs((2*kursor/windowWidth)-1)*15;
+
+   console.log (procent2);
+
+   $('#two').css("width", 600*procent);
+
+   if ( kursor > (windowWidth/2)){
+     $('.box').css("margin-left", -300 - procent2  )
+   }else{
+     $('.box').css("margin-left", -300 + procent2 )
    }
+
+
+
 
   });
